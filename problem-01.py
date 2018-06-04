@@ -11,7 +11,6 @@ def add_multiples(x):
   '''Add multples below x'''
   sum = 0
   for n in range(1,x):
-    #print n
     if is_multiple(n):
       sum = sum + n
   return sum
